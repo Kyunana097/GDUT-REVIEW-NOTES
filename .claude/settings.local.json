@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -m venv .venv)"
+      "Bash(python -m venv .venv)",
+      "Bash(tee /d/GDUT-REVIEW-NOTES/.cc-link-result.txt)",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File 'd:\\\\GDUT-REVIEW-NOTES\\\\.cc-webstorage.ps1')"
     ]
   }
 }
